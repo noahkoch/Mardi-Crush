@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+body {
+  user-select: none;
+  margin: 0;
+  font-family: 'Bebas Neue', cursive;
+}
+h3 {
+  text-align: center;
+  font-size: 1.3em;
+
+}
+
+img {
+  width: 100%;    
+}
+.emoji-overlay {
+  position: absolute;
+  width: 80%;
+  font-size: 3em;
+  top: 20%;
+  left: 10%;
+}
+
+.level-prompt {
+  padding: 1%;
+  transition: 1s;
+  background: green;
+  position: absolute;
+  top: 100px;
+  z-index: 100;
+  width: 68%;
+  height: 300px;
+  left: 15%;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 10px;
+  box-shadow: 1px 2px 4px -2px #777;
+  border: solid darkgreen;
+}
+
+.level-prompt button {
+  border: 0;
+  outline: 0;
+  box-shadow: 5px 5px 0px 5px #32c13c;
+  font-size: 2em;
+  padding: 5px 20px;
+  width: 70%;
+  margin-left: 15%;
+  margin-top: 10%;
+  position: relative;
+  background-color: #7eff7e;
+  transition: 0.5s;
+}
+
+.level-prompt button:active, .level-prompt button:hover, .level-prompt button:focus{
+  box-shadow: 2px 2px 0px 2px #366615;
+}
+
+.level-prompt #next-level, .level-prompt #end-game{
+  display: none;
+}
+
+.high-score {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 15%;
+  color: white;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #333;
+  font-size: 1.5em;
+}
+
+.score {
+  font-size: 30px;
+  position: absolute;
+  width: 100px;
+  text-align: right;
+  bottom: 13%;
+  right: 10%;
+}
+
+.level {
+  position: absolute;
+  font-size: 45px;
+  bottom: 13%;
+  left: 40%;
+}
+.time {
+  position: absolute;
+  text-align: center;
+  font-size: 45px;
+  bottom: 2%;
+  width: 100%;
+}
