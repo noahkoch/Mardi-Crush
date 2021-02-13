@@ -62,6 +62,10 @@ var endLevel = function() {
   }
 
   $('.level-prompt').css('top', '100px');
+
+  myAudio = new Audio('lend-me-some-sugar.m4a'); 
+  myAudio.volume = 0.5;
+  myAudio.play();
 }
 
 var setHighScore = function(score) {
@@ -113,13 +117,10 @@ var bonusMusic = function() {
   var clips = [
     'wily-minx.m4a',
     'wily-minx.m4a',
-    'wily-minx.m4a',
     'mango-mania.m4a',
     'mango-mania.m4a',
     'mango-mania.m4a',
     'mango-mania.m4a',
-    'lend-me-some-sugar.m4a',
-    'lend-me-some-sugar.m4a',
     'immune.m4a',
     'bagel.m4a'
   ]
